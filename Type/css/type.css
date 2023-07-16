@@ -1,0 +1,36 @@
+.typed-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 25px;
+  color: black;
+  padding: 13px;
+}
+
+.box-for-typing {
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 150px;
+  cursor: pointer;
+  background-color: beige;
+}
+
+.intro-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 25px;
+  color: lightgray;
+  padding-left: 600px;
+  padding-top: 20px;
+}
+
+body {
+  background-color: darkblue;
+}
+
+.tipe {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 25px;
+  color: lightgray;
+  padding-left: 580px;
+  padding-top: 10px;
+}

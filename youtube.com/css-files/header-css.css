@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  height: 55px;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 55px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: darkgrey;
+  z-index: 100;
+}
+
+.left-div {
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.center-div {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  flex: 1;
+  margin-left: 70px;
+  max-width: 500px;
+}
+
+.right-div {
+  margin-left: 35px;
+  color: beige;
+  padding-top: 8px;
+  flex-shrink: 0;
+}
+
+.hamburger {
+  width: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.youtube-logo {
+  width: 90px;
+}
+
+.search-icon-button {
+  width: 50px;
+  height: 32px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(186, 182, 182);
+  margin-left: -1px;
+}
+
+.voice-search-icon-button {
+  width: 32px;
+  height: 32px;
+  border-width: 0;
+  border-radius: 15px;
+  margin-left: 4px;
+}
+
+.search {
+  margin-top: 9px;
+  flex: 1;
+  height: 28px;
+  padding-left: 12px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(186, 182, 182);
+  box-shadow: inset 1px 2px 5px rgb(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.search::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.search-image {
+  height: 18px;
+}
+
+.search-mic-img {
+  height: 19px;
+}
+
+.upload-icon {
+  height: 35px;
+  padding-top: 2px;
+}
+
+.youtube-icon {
+  height: 35px;
+  padding-top: 2px;
+}
+
+.notifications-icon {
+  height: 35px;
+  padding-top: 2px;
+}
+
+.channel-icon {
+  height: 35px;
+  padding-top: 2px;
+  border-radius: 25px;
+}
+
+.left {
+  background-color: white;
+  border-radius: 25px;
+  border-width: 0;
+  margin-right: 18px;
+  position: relative;
+}
+
+.notifications {
+  background-color: rgb(227, 33, 33);
+  color: white;
+  width: 18px;
+  border-radius: 9px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding: 1px;
+}
